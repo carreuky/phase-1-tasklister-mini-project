@@ -8,7 +8,6 @@ document.addEventListener("DOMContentLoaded", () => {
     p.textContent = `${e.target['new-task-description'].value} `
     button = document.createElement('button')
     button.textContent = 'X'
-    console.log(p)
     form.appendChild(p)
     p.appendChild(button)
 
